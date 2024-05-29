@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887218384351",
+    "project_id": "indigo-taxi-a766d",
+    "storage_bucket": "indigo-taxi-a766d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887218384351:android:f36866778da2e546caa86a",
+        "android_client_info": {
+          "package_name": "com.yogeshwar.indigotaxi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsmkC6uT9x-kdumBYfvN8WFskxKgIQjH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

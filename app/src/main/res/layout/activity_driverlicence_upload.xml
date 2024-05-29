@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFEB3B"
+    tools:context=".DriverlicenceUpload">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#4CC8D8" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, drivers Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/required_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required steps"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here's what you need to do to set up your account."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Steps List -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload all the document which is asked below"
+            android:textColor="#6750A3"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/rectangle"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Profile Photo Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:id="@+id/profilephotoview"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Profile Photo"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/profilephoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Driving Licence Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:id="@+id/ddview"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Driving licence"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/dd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- PAN Card Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/pancardview"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PAN Card"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:id="@+id/pancard"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Registration Certificate (RC) Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/RCsview"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registration Certificate(RC)"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:id="@+id/RC"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Vehicle Insurance Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/vehicleinsuranceview"
+
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Vehicle Insurance"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:id="@+id/vehicleinsurance"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Vehicle Permit Step -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/vehiclepermitview"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Vehicle Permit"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">>>>>"
+                android:id="@+id/vehiclepermit"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next step"
+            android:id="@+id/Nextstep"
+            android:backgroundTint="#FEEA3B"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

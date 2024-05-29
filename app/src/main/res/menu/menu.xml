@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+    <item
+        android:id="@+id/referal"
+        android:icon="@drawable/baseline_info_24"
+        android:title="Referal Page"/>
+
+    <item
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:id="@+id/logout"
+        app:showAsAction="ifRoom"/>
+
+    </group>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="always"/>
+
+</menu>

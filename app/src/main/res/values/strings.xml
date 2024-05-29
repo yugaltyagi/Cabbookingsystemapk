@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Indigo Taxi</string>
+    <string name="Send_otp">Send OTP</string>
+    <string name="Resend_otp">Resend OTP</string>
+    <string name="Change_phoneNO">Change phone NO</string>
+    <string name="Did_not_recive">Resend OTP</string>
+    <string name="Text_area">Call for OTP</string>
+    <string name="LOGO">WELCOME TO IDIGO TAXI</string>
+    <string name="Changeyourno">Change your mobile number?</string>
+    <string name="didnt_recived">I haven’t received a code</string>
+    <string name="Driver_sighnup"><b><i><u>Driver Sign up</u></i></b></string>
+    <string name="Pessenger_signup"><b><i><u>Pessanger Sign up</u></i></b></string>
+    <string name="verification_buttton">NEXT</string>
+    <string name="enterphoneno"><u>Enter Mobile NO</u></string>
+    <string name="indigo"><b>Indigo Texi</b></string>
+    <string name="tagline2"><b>Grab the most affordable \n rides</b> </string>
+    <string name="tagline"><b>GO ANY WHERE</b></string>
+    <string name="taglin5">Choose you as?</string>
+    <string name="tagline3"><b>Experience superior rides for your journey.</b> </string>
+    <string name="tagline4"><b><u>Indigo taxi welcomes you</u></b></string>
+    <string name="as_a_driver">As a driver</string>
+    <string name="as_a_passenger">As a Passenger</string>
+    <string name="Loading..."><u>Loading.....</u></string>
+    <string name="page7">This number will be used for all ride related Communication You shall receive an SMS with code for varification.</string>
+    <string name="title_activity_page8">page8</string>
+    <string name="confirm_your_name">Confirm your name.</string>
+    <string name="what_s_your_name">What\'s your Name?</string>
+    <string name="let_us_know_how_to_properly_address_you"><U>let us know how to properly address you</U></string>
+    <string name="what_s_yor_name"><u>What\'s yor Name?</u></string>
+    <string name="earn_with_indigo"><b>Earn with Indigo</b></string>
+    <string name="decide_when_where_and_how_you_want_to_earn">Decide when , where and how you want to earn.</string>
+    <string name="where_would_like_to_earn">Where would like to earn</string>
+    <string name="referral_code_optional">Referral code(Optional)</string>
+    <string name="by_proceeding_i_agree_the_indigo_or_its_representatives_may_contact_me_by_email_phone_or_sms_at_the_number_i_provided">By proceeding .I agree the Indigo or its representatives may contact me by email,phone,or SMS at the number I Provided</string>
+    <string name="next">NEXT</string>
+    <string name="high_quality_rides_for_your_trip">High quality rides for your trip</string>
+    <string name="explore_new_ways_and_enjoy_the_trip_with_indigo_taxis">Explore new ways and enjoy the trip with Indigo Taxi</string>
+    <string name="continue_with_phone_number">Continue with INDIGO Taxi</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_91">+91</string>
+    <string name="verify">verify</string>
+    <string name="code91">+91</string>
+    <string name="google_authantication">Google Authantication</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="my_app_api_key">AIzaSyDGtilP2KlOOMX532k4DVCJTgxJq5ie_uI</string>
+    <string name="pickup_location">Enter you pickup location.</string>
+    <string name="continue_as_driver">Continue as DRIVER</string>
+    <string name="continue_as_Passenger">Continue as PASSENGER</string>
+    <string name="already_an_user_login"><i>Already a user? Login</i></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="book_indigo">Book Indigo</string>
+    <string name="edit_your_profile"><u><i>Edit your profile</i></u></string>
+    <string name="AIzaSyDGtilP2KlOOMX532k4DVCJTgxJq5ie_uI">My_Autoplace\n</string>
+    <string name="coming_soon_in_your_town">Coming soon in\nyour town.</string>
+
+
+    <!--    <string name="LOGO">WELCOME TO IDIGO TAXI</string>-->
+
+</resources>
